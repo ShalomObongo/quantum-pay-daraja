@@ -93,14 +93,14 @@
 
 Create a \`.env.local\` file in the root directory with the following variables:
 
-\`\`\`env
+```env
 DARAJA_CONSUMER_KEY=your_consumer_key
 DARAJA_CONSUMER_SECRET=your_consumer_secret
 DARAJA_PASS_KEY=your_pass_key
 DARAJA_BUSINESS_SHORT_CODE=your_shortcode
 DARAJA_API_URL=https://sandbox.safaricom.co.ke
 NEXT_PUBLIC_API_URL=your_callback_url
-\`\`\`
+```
 
 ## 📡 API Reference
 
