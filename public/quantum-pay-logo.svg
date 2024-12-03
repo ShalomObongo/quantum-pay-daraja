@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <circle cx="100" cy="100" r="90" fill="url(#gradient)" />
+  
+  <!-- Q Letter -->
+  <path d="M100 50C77.909 50 60 67.909 60 90C60 112.091 77.909 130 100 130C122.091 130 140 112.091 140 90C140 67.909 122.091 50 100 50ZM100 120C83.458 120 70 106.542 70 90C70 73.458 83.458 60 100 60C116.542 60 130 73.458 130 90C130 106.542 116.542 120 100 120Z" fill="white"/>
+  
+  <!-- Quantum Rings -->
+  <circle cx="100" cy="100" r="70" stroke="white" stroke-width="2" stroke-dasharray="4 4" class="animate-spin-slow"/>
+  <circle cx="100" cy="100" r="80" stroke="white" stroke-width="2" stroke-dasharray="4 4" class="animate-spin-reverse"/>
+  
+  <!-- Payment Symbol -->
+  <path d="M95 85L105 95M105 85L95 95" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  
+  <style>
+    .animate-spin-slow {
+      animation: spin 10s linear infinite;
+    }
+    .animate-spin-reverse {
+      animation: spin 8s linear infinite reverse;
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</svg> 
