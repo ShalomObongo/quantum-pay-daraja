@@ -40,14 +40,14 @@
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│ 🚀 Lightning Fast  │ Built with Next.js 13          │
-│ 🔒 Secure         │ Safaricom's Daraja 2.0 API     │
+│ 🚀 Lightning Fast │ Built with Next.js 13           │
+│ 🔒 Secure         │ Safaricom's Daraja 2.0 API      │
 │ 🌓 Theme Support  │ Dark/Light mode with animation  │
 │ 🎨 Modern UI      │ Glass morphism & animations     │
-│ 📱 Responsive     │ Mobile-first design            │
-│ 🔄 Real-time      │ Live transaction tracking      │
-│ 📝 Logging        │ Comprehensive debug support    │
-│ 🔐 Type Safe      │ Full TypeScript integration    │
+│ 📱 Responsive     │ Mobile-first design             │
+│ 🔄 Real-time      │ Live transaction tracking       │
+│ 📝 Logging        │ Comprehensive debug support     │
+│ 🔐 Type Safe      │ Full TypeScript integration     │
 └─────────────────────────────────────────────────────┘
 ```
 
